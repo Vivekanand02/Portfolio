@@ -1,0 +1,33 @@
+:root {
+  --bg: #0E1216;
+  --panel: #171D24;
+  --panel-2: #1D242C;
+  --line: #2A323C;
+  --text: #E7EAEE;
+  --muted: #8B96A3;
+  --accent: #D9A24B;
+  --accent-dim: #8A6A33;
+  --ok: #6FBF8A;
+  --font-head: 'Space Grotesk', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-body: 'IBM Plex Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+::selection { background: var(--accent); color: var(--bg); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
