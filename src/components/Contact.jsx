@@ -4,7 +4,7 @@ function Contact() {
       <div className="wrap contact-panel">
         <div>
           <h2>Let's talk backend.</h2>
-          <p>Open to Java backend fresher roles across Delhi, Gurugram and the wider NCR.</p>
+          <p>Open to Java backend fresher roles across Delhi, Noida Gurugram and the wider NCR.</p>
         </div>
         <div className="contact-links">
           <a className="btn btn-primary" href="mailto:vivekanandsharmaaa@gmail.com">Email me</a>
